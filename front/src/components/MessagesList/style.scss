@@ -1,0 +1,15 @@
+.message-list-item {
+    color: #111;
+    display: block;
+    border-bottom: 1px solid #f2f2f2;
+    padding: 20px 45px;
+    transition: 0.2s $smooth;
+    &:hover {
+        cursor: pointer;
+        background-color: #333;
+        color: $white;
+    }
+}
+.message-list-item__title {
+    font-weight: 700;
+}

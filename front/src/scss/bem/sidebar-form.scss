@@ -1,0 +1,51 @@
+.sidebar-form {
+    padding: 45px;
+}
+.sidebar-form__group {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    label {
+        flex: 0 0 135px;
+        text-align: right;
+        margin-right: 20px;
+        font-size: 11px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: $color--primary;
+    }
+    .label {
+        flex: 0 0 135px;        
+    }
+    .place {
+        color: $black;
+        position: relative;
+        z-index: 15000;
+        transition: 0.2s;
+        font-size: 14px;
+        &.save {
+            color: $white;
+        }
+    }
+    input {
+        padding: 7px 0;
+        flex-grow: 1;
+        background-color: none;
+        border-bottom: 1px solid #eee;
+    }
+    textarea {
+        padding: 7px 0;
+        flex-grow: 1;
+        background-color: none;
+        border-bottom: 1px solid #eee;
+        resize: none;
+        height: 70px;
+    }
+    select {
+        padding: 7px 0;
+        flex-grow: 1;
+        border-bottom: 1px solid #eee;
+        background-color: none;                
+    }
+}

@@ -1,0 +1,51 @@
+.report-view {
+    .body-row {
+        .report-content {
+            color: $black;
+            
+            .report-info-bar {
+                // display: flex;
+                margin-bottom: 15px;
+                font-weight: 700;
+                    color: #999;
+                    font-size: 13px;
+                    display: flex;
+                    .split {
+                        width: 50%;
+                    }
+                    .item {
+                        display: flex;
+                        margin-bottom: 12px;
+                        // margin-right: 20px;
+                        align-items: center;                        
+                        .icon {
+                            position: relative;
+                            width: 26px;
+                            height: auto;
+                            margin-right: 10px;
+                            svg {
+                                width: 100%;
+                                height: auto;
+                            }
+                            &.icon-theme {
+                                * {
+                                    fill: $color--primary !important;
+
+                                }
+                            }
+                        }
+                    }
+                .date {
+                    
+                }
+                .location {
+
+                }
+                .category {
+                    text-transform: uppercase;
+                }
+            }
+            
+        }
+    }
+}

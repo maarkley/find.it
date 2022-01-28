@@ -1,0 +1,7 @@
+{
+    "private": true,
+    "scripts": {
+        "start": "php artisan serve --host=find.it --port=8001",
+		"new_db": "php artisan migrate:fresh --seed"
+    }
+}
