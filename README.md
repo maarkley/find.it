@@ -1,1 +1,1 @@
-Learning project
+Learning React
